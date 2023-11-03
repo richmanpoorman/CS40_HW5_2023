@@ -1,0 +1,5 @@
+
+break explode_bomb
+break *401982
+break strings_not_equal 
+print (char *) 0x401d50
