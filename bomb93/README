@@ -3,3 +3,43 @@ This is bomb 93 for lab comp40fall23.
 It is owned by the following student(s):
 mwong14
 hsinha02
+
+Phase 1: To pass this phase we input a string which exactly matches 
+         the the string at address 0x401d50. Our string was
+        "I was born with someone waiting to see me."
+
+Phase 2: In this phase we input 6 numbers that satisfies the factorial
+         algorithm to defuse the bomb. It is the factorial of each
+         index from 1 to 6. So the solution is 1!, 2!, 3!, 4!, 5!, 6!
+          
+Phase 3: In this phase
+
+Phase 4:
+
+Phase 5: 
+
+Phase 6: To solve this phase we pass a value at node0 so that when 
+         fun6 sorts the linked list from largest to smallest, node0 
+         is at the 3rd position. Fun6 sorts the linkedlist as:
+         6->1->3->7->4->8->2->9->5 We need to add int value so that 
+         node1: 816 < node0: 777 > node3: 685. Solved order: 
+         6->1->0->3->7->4->8->2->9->5
+         
+Node         Address      Int Val
+0            6308640        777
+1            6308656        816
+2            6308672        243
+3            6308688        685
+4            6308704        562
+5            6308720        64
+6            6308736        999
+7            6308752        578
+8            6308768        446
+9            6308784        209
+
+
+Phase 7: To unlock the secret phase we need to input Igor_Straminksy 
+         as a second input in phase 4. Then we 
+
+
+                
