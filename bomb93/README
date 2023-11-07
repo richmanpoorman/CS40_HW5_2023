@@ -25,21 +25,24 @@ Phase 6: To solve this phase we pass a value at node0 so that when
          node1: 816 < node0: 777 > node3: 685. Solved order: 
          6->1->0->3->7->4->8->2->9->5
          
-Node         Address      Int Val
-0            6308640        777
-1            6308656        816
-2            6308672        243
-3            6308688        685
-4            6308704        562
-5            6308720        64
-6            6308736        999
-7            6308752        578
-8            6308768        446
-9            6308784        209
+                  Node         Address      Int Val
+                  0            6308640        777
+                  1            6308656        816
+                  2            6308672        243
+                  3            6308688        685
+                  4            6308704        562
+                  5            6308720        64
+                  6            6308736        999
+                  7            6308752        578
+                  8            6308768        446
+                  9            6308784        209
 
 
 Phase 7: To unlock the secret phase we need to input Igor_Straminksy 
-         as a second input in phase 4. Then we 
+         as a second input in phase 4. To solve this phase, we printed
+         the BST tree and given a node value in the BST tree the phase         
+         is solved. 1001 is evaluated as 7 since it is the 3rd right child.
+         *** NEEDS FIXING
 
 
                 
